@@ -1,6 +1,5 @@
 var isSubtree = function(s,t){
   if(s === null) return false;
-  if(t === null) return true;
 
   if((isSame(s,t))){
   return true;
