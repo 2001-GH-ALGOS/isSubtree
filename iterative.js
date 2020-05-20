@@ -1,5 +1,8 @@
 // Compare Approach: traverse each node of tree s and if it matches the root of tree t, call compare function, compare function will return true/false if s matches t. If all of s is traversed and compare only returned false, return false(there is no subtree).
 
+// time complexity: O(m * n) m represents size of s, n represents size of t
+// space complexity: O(n) n refers to size of s because s is larger or equal to t at least
+
 function isSubtree(t1, t2) {
   const stack = [t1];
 
